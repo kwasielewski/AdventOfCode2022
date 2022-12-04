@@ -1,6 +1,6 @@
 using Scanf
 function f()
-	
+
   sum = 0
 
   for line in eachline("./day4.txt")
@@ -12,9 +12,9 @@ function f()
       sum += 1
     end
   end
-	
+  
   println(sum)
-
+  
 end
 
 f()
