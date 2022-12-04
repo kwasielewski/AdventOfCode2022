@@ -20,7 +20,7 @@ function f()
 		for i in x+1:length(line)
 			if y[ltn(line[i])]
 				sum += ltn(line[i])
-                break
+                                break
 			end
 		end
 	end
